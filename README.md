@@ -177,6 +177,10 @@ This project is open source and available for learning purposes.
 
 Created as a learning project to understand Spring Boot Feign clients.
 
+## Acknowledgements
+
+This project was developed with the assistance of AI-powered development tools. The majority of the code implementation, architectural design, and documentation were created using Cursor, powered by advanced language models (including Claude and GPT-4). This AI-assisted development significantly accelerated the development process and helped ensure best practices in Spring Boot and Feign client integration. Additionally, the use of these AI tools served as a valuable learning experience and practice opportunity for modern software development workflows that incorporate AI-assisted coding techniques.
+
 ---
 
 **Happy Learning! 🚀**
