@@ -163,6 +163,7 @@ This project uses [JSONPlaceholder](https://jsonplaceholder.typicode.com), a fre
 - Feign client integration
 - REST endpoints
 - Service layer
+- Unit tests (Service and Controller layers)
 - Documentation
 
 ## Contributing

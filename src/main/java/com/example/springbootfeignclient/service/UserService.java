@@ -54,9 +54,13 @@ public class UserService {
      * @return List of matching users
      */
     public List<User> findUsersByName(String name) {
+        if (name == null || name.trim().isEmpty()) {
+            return getAllUsers();
+        }
+        String searchName = name.toLowerCase();
         return getAllUsers().stream()
                 .filter(user -> user.getName() != null && 
-                               user.getName().toLowerCase().contains(name.toLowerCase()))
+                               user.getName().toLowerCase().contains(searchName))
                 .toList();
     }
 }
